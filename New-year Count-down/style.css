@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+    margin: 0px;
+    height: 100vh;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: rgb(16, 14, 14); */
+    color: rgb(5, 4, 4);
+}
+.bgVideo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+h1{
+    font-size:75px;
+    font-weight:lighter;
+    margin-top: -30px;
+}
+
+h2{
+    font-size:30px;
+    margin-top: 9px;
+    margin-bottom:1px;
+}
+
+.mainContainer{
+    display: flex;
+    transform:scale(2);
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 40px;
+    }
+    .time{
+        margin: 5px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    span{
+        font-weight: lighter;
+    }
+}
+@media (min-aspect-ratio:16/9){
+    .bgVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .bgVideo{
+        width: auto;
+        height: 100%;
+    }
+}
