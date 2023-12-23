@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url(winter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
     margin: 0px;
     height: 100vh;
     font-family:'Kdam Thmor Pro', sans-serif;
@@ -15,7 +11,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* color: rgb(16, 14, 14); */
     color: rgb(5, 4, 4);
 }
 .bgVideo{
